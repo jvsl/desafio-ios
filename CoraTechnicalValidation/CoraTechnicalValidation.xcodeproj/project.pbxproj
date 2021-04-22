@@ -97,6 +97,8 @@
 		C5DA3BA7263101C700751B4C /* CoraTechnicalValidation */ = {
 			isa = PBXGroup;
 			children = (
+				C5DA3BDF2632406100751B4C /* Order */,
+				C5DA3BDE2632403200751B4C /* Login */,
 				C5DA3BA8263101C700751B4C /* AppDelegate.swift */,
 				C5DA3BAC263101C700751B4C /* ViewController.swift */,
 				C5DA3BAE263101C700751B4C /* Main.storyboard */,
@@ -123,6 +125,68 @@
 				C5DA3BCC263101C800751B4C /* Info.plist */,
 			);
 			path = CoraTechnicalValidationUITests;
+			sourceTree = "<group>";
+		};
+		C5DA3BDE2632403200751B4C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C5DA3BE5263240AE00751B4C /* View */,
+				C5DA3BE4263240A900751B4C /* Service */,
+				C5DA3BE3263240A100751B4C /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C5DA3BDF2632406100751B4C /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				C5DA3BE22632409700751B4C /* ViewModel */,
+				C5DA3BE12632409200751B4C /* Service */,
+				C5DA3BE02632408C00751B4C /* View */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		C5DA3BE02632408C00751B4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5DA3BE12632409200751B4C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C5DA3BE22632409700751B4C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C5DA3BE3263240A100751B4C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C5DA3BE4263240A900751B4C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C5DA3BE5263240AE00751B4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
