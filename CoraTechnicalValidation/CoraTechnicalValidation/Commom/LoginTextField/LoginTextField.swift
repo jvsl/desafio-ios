@@ -101,6 +101,13 @@ class LoginTextField: UITextField {
         return self
     }
     
+    @discardableResult
+    func with(secureTextEntry: Bool) -> Self {
+        isSecureTextEntry = secureTextEntry
+        
+        return self
+    }
+    
     private func startTitleAnimation() {
         if !titleAnimationHasFired {
             titleAnimationHasFired = !titleAnimationHasFired
