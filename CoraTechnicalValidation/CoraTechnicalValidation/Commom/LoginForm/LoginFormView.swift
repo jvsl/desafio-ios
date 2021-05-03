@@ -42,7 +42,6 @@ class LoginFormView: UIView {
         stackView.axis = .vertical
         stackView.distribution = .equalSpacing
         stackView.spacing = 8
-        stackView.backgroundColor = .darkGray
         
         return stackView
     }()
@@ -74,13 +73,13 @@ extension LoginFormView: BuildView {
             passwordTextField.heightAnchor.constraint(
                 equalToConstant: 80),
             formStackView.leadingAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.leadingAnchor),
+                equalTo: safeAreaLayoutGuide.leadingAnchor),
             formStackView.trailingAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.trailingAnchor),
+                equalTo: safeAreaLayoutGuide.trailingAnchor),
             formStackView.topAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.topAnchor),
+                equalTo: safeAreaLayoutGuide.topAnchor),
             formStackView.bottomAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.bottomAnchor)
+                equalTo: safeAreaLayoutGuide.bottomAnchor)
         ])
     }
 }
