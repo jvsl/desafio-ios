@@ -145,10 +145,10 @@ extension LoginTextField: BuildView {
     func addConstraint() {
         NSLayoutConstraint.activate([
             leftViewAccessory.leadingAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.leadingAnchor,
+                equalTo: leadingAnchor,
                 constant: 20),
             leftViewAccessory.centerYAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.centerYAnchor),
+                equalTo: centerYAnchor),
             leftViewAccessory.heightAnchor.constraint(
                 equalToConstant: 24),
             leftViewAccessory.widthAnchor.constraint(
@@ -157,10 +157,10 @@ extension LoginTextField: BuildView {
         
         NSLayoutConstraint.activate([
             rightViewAccessory.trailingAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.trailingAnchor,
+                equalTo: trailingAnchor,
                 constant: -20),
             rightViewAccessory.centerYAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.centerYAnchor),
+                equalTo: centerYAnchor),
             rightViewAccessory.heightAnchor.constraint(
                 equalToConstant: 24),
             rightViewAccessory.widthAnchor.constraint(
@@ -168,15 +168,15 @@ extension LoginTextField: BuildView {
         ])
         
         topTitleConstraint = title.centerYAnchor.constraint(
-            equalTo: self.safeAreaLayoutGuide.centerYAnchor)
+            equalTo: centerYAnchor)
         topTitleConstraint?.isActive = true
         
         NSLayoutConstraint.activate([
             title.leadingAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.leadingAnchor,
+                equalTo: leadingAnchor,
                 constant: 54),
             title.trailingAnchor.constraint(
-                equalTo: self.safeAreaLayoutGuide.trailingAnchor,
+                equalTo: trailingAnchor,
                 constant: -54),
         ])
     }
