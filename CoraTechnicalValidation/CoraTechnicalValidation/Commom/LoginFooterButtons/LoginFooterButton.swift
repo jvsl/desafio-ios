@@ -8,6 +8,9 @@
 import UIKit
 
 class LoginFooterButton: UIView {
+    
+    private var forgetPasswordButtonAction: (() -> Void)?
+    private var accountAccessButtonAction: (() -> Void)?
 
     private var stackViewContainer: UIStackView = {
         let stackView = UIStackView()
@@ -32,6 +35,14 @@ class LoginFooterButton: UIView {
         
         return button
     }()
+    
+    func with(forgetPasswordAction: @escaping () -> Void) {
+        forgetPasswordButtonAction = forgetPasswordAction
+    }
+    
+    func with(accountAccessAction: @escaping () -> Void) {
+        accountAccessButtonAction = accountAccessAction
+    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)

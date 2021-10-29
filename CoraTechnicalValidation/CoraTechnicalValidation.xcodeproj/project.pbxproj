@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5850FA826438D9200186A2A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5850FA726438D9200186A2A /* LoginViewModel.swift */; };
+		C5850FB12643936400186A2A /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5850FB02643936400186A2A /* LoginCoordinator.swift */; };
+		C5C5E0382634E6E8006999C4 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5E0372634E6E8006999C4 /* LoginButton.swift */; };
 		C5DA3BA9263101C700751B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA3BA8263101C700751B4C /* AppDelegate.swift */; };
-		C5DA3BAD263101C700751B4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA3BAC263101C700751B4C /* ViewController.swift */; };
-		C5DA3BB0263101C700751B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DA3BAE263101C700751B4C /* Main.storyboard */; };
 		C5DA3BB2263101C800751B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DA3BB1263101C800751B4C /* Assets.xcassets */; };
 		C5DA3BB5263101C800751B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DA3BB3263101C800751B4C /* LaunchScreen.storyboard */; };
 		C5DA3BC0263101C800751B4C /* CoraTechnicalValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA3BBF263101C800751B4C /* CoraTechnicalValidationTests.swift */; };
 		C5DA3BCB263101C800751B4C /* CoraTechnicalValidationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA3BCA263101C800751B4C /* CoraTechnicalValidationUITests.swift */; };
+		C5DA3BE72632415900751B4C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA3BE62632415900751B4C /* LoginViewController.swift */; };
+		C5DA3BF72632418500751B4C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA3BF62632418500751B4C /* LoginView.swift */; };
+		C5DA3BFE263241DC00751B4C /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA3BFD263241DC00751B4C /* LoginTextField.swift */; };
+		C5DA3C072632535C00751B4C /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA3C062632535C00751B4C /* LoginFormView.swift */; };
+		C5DC30282637A397009BE2EC /* LoginFooterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DC30272637A397009BE2EC /* LoginFooterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5850FA726438D9200186A2A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C5850FB02643936400186A2A /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		C5C5E0372634E6E8006999C4 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		C5DA3BA5263101C700751B4C /* CoraTechnicalValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoraTechnicalValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DA3BA8263101C700751B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5DA3BAC263101C700751B4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C5DA3BAF263101C700751B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5DA3BB1263101C800751B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5DA3BB4263101C800751B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5DA3BB6263101C800751B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		C5DA3BC6263101C800751B4C /* CoraTechnicalValidationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoraTechnicalValidationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DA3BCA263101C800751B4C /* CoraTechnicalValidationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoraTechnicalValidationUITests.swift; sourceTree = "<group>"; };
 		C5DA3BCC263101C800751B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DA3BE62632415900751B4C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C5DA3BF62632418500751B4C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C5DA3BFD263241DC00751B4C /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		C5DA3C062632535C00751B4C /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		C5DC30272637A397009BE2EC /* LoginFooterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFooterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5850FAF2643935700186A2A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C5C5E0362634E6CC006999C4 /* LoginButton */ = {
+			isa = PBXGroup;
+			children = (
+				C5C5E0372634E6E8006999C4 /* LoginButton.swift */,
+			);
+			path = LoginButton;
+			sourceTree = "<group>";
+		};
 		C5DA3B9C263101C700751B4C = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +124,9 @@
 		C5DA3BA7263101C700751B4C /* CoraTechnicalValidation */ = {
 			isa = PBXGroup;
 			children = (
-				C5DA3BDF2632406100751B4C /* Order */,
+				C5DA3BFB263241BA00751B4C /* Commom */,
 				C5DA3BDE2632403200751B4C /* Login */,
 				C5DA3BA8263101C700751B4C /* AppDelegate.swift */,
-				C5DA3BAC263101C700751B4C /* ViewController.swift */,
-				C5DA3BAE263101C700751B4C /* Main.storyboard */,
 				C5DA3BB1263101C800751B4C /* Assets.xcassets */,
 				C5DA3BB3263101C800751B4C /* LaunchScreen.storyboard */,
 				C5DA3BB6263101C800751B4C /* Info.plist */,
@@ -130,47 +155,19 @@
 		C5DA3BDE2632403200751B4C /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				C5850FAF2643935700186A2A /* Coordinator */,
 				C5DA3BE5263240AE00751B4C /* View */,
 				C5DA3BE4263240A900751B4C /* Service */,
 				C5DA3BE3263240A100751B4C /* ViewModel */,
+				C5850FB02643936400186A2A /* LoginCoordinator.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		C5DA3BDF2632406100751B4C /* Order */ = {
-			isa = PBXGroup;
-			children = (
-				C5DA3BE22632409700751B4C /* ViewModel */,
-				C5DA3BE12632409200751B4C /* Service */,
-				C5DA3BE02632408C00751B4C /* View */,
-			);
-			path = Order;
-			sourceTree = "<group>";
-		};
-		C5DA3BE02632408C00751B4C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C5DA3BE12632409200751B4C /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		C5DA3BE22632409700751B4C /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C5DA3BE3263240A100751B4C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C5850FA726438D9200186A2A /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -185,8 +182,45 @@
 		C5DA3BE5263240AE00751B4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C5DA3BE62632415900751B4C /* LoginViewController.swift */,
+				C5DA3BF62632418500751B4C /* LoginView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C5DA3BFB263241BA00751B4C /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				C5DC301E26379D54009BE2EC /* LoginFooterButtons */,
+				C5C5E0362634E6CC006999C4 /* LoginButton */,
+				C5DA3C052632532B00751B4C /* LoginForm */,
+				C5DA3BFC263241BF00751B4C /* LoginTextField */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		C5DA3BFC263241BF00751B4C /* LoginTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C5DA3BFD263241DC00751B4C /* LoginTextField.swift */,
+			);
+			path = LoginTextField;
+			sourceTree = "<group>";
+		};
+		C5DA3C052632532B00751B4C /* LoginForm */ = {
+			isa = PBXGroup;
+			children = (
+				C5DA3C062632535C00751B4C /* LoginFormView.swift */,
+			);
+			path = LoginForm;
+			sourceTree = "<group>";
+		};
+		C5DC301E26379D54009BE2EC /* LoginFooterButtons */ = {
+			isa = PBXGroup;
+			children = (
+				C5DC30272637A397009BE2EC /* LoginFooterButton.swift */,
+			);
+			path = LoginFooterButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +328,6 @@
 			files = (
 				C5DA3BB5263101C800751B4C /* LaunchScreen.storyboard in Resources */,
 				C5DA3BB2263101C800751B4C /* Assets.xcassets in Resources */,
-				C5DA3BB0263101C700751B4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,8 +352,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DA3BAD263101C700751B4C /* ViewController.swift in Sources */,
+				C5DA3BE72632415900751B4C /* LoginViewController.swift in Sources */,
+				C5C5E0382634E6E8006999C4 /* LoginButton.swift in Sources */,
+				C5DA3C072632535C00751B4C /* LoginFormView.swift in Sources */,
+				C5DA3BF72632418500751B4C /* LoginView.swift in Sources */,
+				C5850FA826438D9200186A2A /* LoginViewModel.swift in Sources */,
 				C5DA3BA9263101C700751B4C /* AppDelegate.swift in Sources */,
+				C5850FB12643936400186A2A /* LoginCoordinator.swift in Sources */,
+				C5DC30282637A397009BE2EC /* LoginFooterButton.swift in Sources */,
+				C5DA3BFE263241DC00751B4C /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,14 +396,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C5DA3BAE263101C700751B4C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5DA3BAF263101C700751B4C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C5DA3BB3263101C800751B4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
